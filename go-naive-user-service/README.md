@@ -8,12 +8,12 @@
 
 ## Bonus
 以下操作可以使用 Docker 將應用程式容器化 <br>
-1. docker image build -t go-naive-v01 . 
+1. docker image build -t go-naive-v01 .
 2. docker image ls (optional, just to make sure the image has been created) <br>
 3. docker run -dp 8080:8080 -it go-naive-v01 <br>
 使用完成後用以下指令Stop container<br>
    docker stop \<containerId\>
-	
+
 (optional) <br>
 docker ps <to look for process status> <br>
 docker docker exec -it \<containerId\> /bin/bash (run bash on container to interact with the container incase you need anything)
